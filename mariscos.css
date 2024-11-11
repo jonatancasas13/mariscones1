@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Estilos para el menú lateral */
+.menu {
+    width: 200px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20px;
+    position: fixed;
+    height: 100%;
+    left: 0;
+}
+
+.menu-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.menu-button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para la imagen */
+.image-container {
+    margin-left: 220px; /* Para dejar espacio para el menú */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 220px);
+}
+
+.image-container img {
+    width: 50%;
+    height: auto;
+    max-width: 626px;
+}

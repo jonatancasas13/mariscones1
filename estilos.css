@@ -1,0 +1,35 @@
+body {
+    font-family: Arial;
+    background-color:#002db3; 
+    box-sizing:border-box; 
+    height: 100;
+    margin:0;
+    }
+   
+.field
+{
+    border:solid 1px black;
+    padding: 10 px;
+}
+.field:focus{
+
+    border-color: #18A383;
+    
+    }
+form {
+border-radius: 3px;
+position: relative;
+width: 300px;
+color:black;
+font-size: 11px;
+margin: 0 auto;
+padding: 20px;
+background-color: rgb(139, 168, 242);
+}  
+.btn{
+    border-radius: 2px;
+    }
+.cover {
+ object-fit: cover;
+
+}
